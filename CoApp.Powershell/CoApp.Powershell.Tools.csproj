@@ -242,10 +242,6 @@
       <Project>{bd607d7f-ad3f-4819-b1e5-f6a01d3cde1c}</Project>
       <Name>Platform</Name>
     </ProjectReference>
-    <ProjectReference Include="..\clrplus\Powershell.Azure\Powershell.Azure.csproj">
-      <Project>{b172ee7f-7e84-4111-992c-e3a125e194f6}</Project>
-      <Name>Powershell.Azure</Name>
-    </ProjectReference>
     <ProjectReference Include="..\clrplus\Powershell.Core\Powershell.Core.csproj">
       <Project>{DF38AA27-E211-4A3C-A3AB-ADD32347A25A}</Project>
       <Name>Powershell.Core</Name>
