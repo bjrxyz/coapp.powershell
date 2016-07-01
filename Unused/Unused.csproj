@@ -72,8 +72,6 @@ call replace.cmd "Version =.*" "Version ='%25NEWVER%25'" %25SLNDIR%25\Unused\pro
     <PreBuildEvent>cd $(TargetDir)
 set SLNDIR=$(SolutionDir)
 
-REM Kill off anything using the target DLL.
-powershell  "handle $(TargetDir)CoApp.Powershell.dll | %25%25{ if  ($_ -match 'pid:.(?&lt;PID&gt;[0-9]+)') { pskill $matches['PID'] } }"
 
 set TOOLSDIR=$(SolutionDir)\tools
 set NODE_PATH=%25TOOLSDIR%25\node
